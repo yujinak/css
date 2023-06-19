@@ -1,0 +1,142 @@
+/*seletor {
+    propriedade: valor;
+} */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body > header{
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f5f6fa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {                 
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px; */
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article:hover {
+    color: grey;
+}
+
+section {
+    padding:16px 0;
+}
+
+section h2
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article{
+    margin-top: 8px;
+    margin-bottom: 8px;  
+}
+
+.articles article a{
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+} 
+
+.articles article a:hover{
+    background-color: black;
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+articles article h3 {
+    font-size: 24px;
+}
+
+section h3 {
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgba(0,255,0,0.1);
+}
+
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy{
+    background-color: #f8f59f;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#art{
+    background-color: lightpink;
+}
+
+#art .articles article a{
+    background-color: rgb(245, 70, 96);
+}
+
+#science{
+    background-color: lightsteelblue;
+}
+
+#science .articles article a{
+    background-color: rgb(33, 127, 250);
+}
+
+footer{
+    padding: 10px 5px 10px 5px;
+    background-color: #2f3640;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
